@@ -28,7 +28,7 @@ function Appointment() {
 
 	const handleTimeChange = (event) => {
 		const inputTime = new Date(`1970-01-01T${event.target.value}`);
-		const formattedTime = inputTime.toLocaleTimeString([], {
+		const formattedTime = inputTime.toLocaleTimeString(["en-GB", "fr-FR"], {
 			hour: "2-digit",
 			minute: "2-digit",
 		});
