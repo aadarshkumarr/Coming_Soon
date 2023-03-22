@@ -1,0 +1,251 @@
+.main_appointment {
+	margin: 50px 6%;
+}
+
+.all_items {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	width: 80vw;
+	margin-left: -119px;
+}
+.appointment_heading {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.appointment {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	margin-left: -71px;
+	margin-top: -13px;
+}
+.appointment h5 {
+	margin-top: 6px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.appointment div label {
+	width: 145px;
+}
+.appointment h2 {
+	margin-top: 0;
+}
+.calendar {
+	display: flex;
+	flex-direction: column;
+	padding: 51px 0;
+	margin-bottom: 20px;
+	align-items: flex-end;
+	color: black;
+}
+.calendar_heading {
+	width: 100%;
+	background-color: black;
+	color: #ffc300;
+	text-align: center;
+	font-size: 24px;
+}
+.react-calendar__navigation button {
+	color: black;
+}
+
+.react-calendar__tile {
+	color: black;
+}
+
+.text_input {
+	margin-left: 26px;
+	height: 30px;
+	border-radius: 12px;
+}
+
+.text_input_mobile {
+	margin-left: 20px;
+	height: 30px;
+	border-radius: 12px;
+}
+
+.text_label {
+	font-size: 20px;
+	font-weight: 600;
+	padding: 6px 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.select_input {
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 76%;
+	border-radius: 12px;
+	background-color: #fff;
+}
+
+.checkboxes {
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.appointment_btn {
+	background-color: #ffc300;
+	color: #333330;
+	border: none;
+	cursor: pointer;
+	font-weight: 700;
+	width: 200px;
+	font-size: 20px;
+	border-radius: 25px;
+	margin-left: 50px;
+}
+
+/* Responsive CSS */
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.appointment {
+		margin-top: -19px;
+		margin-left: 0;
+	}
+
+	.all_items {
+		flex-direction: column;
+		align-items: center;
+		margin: 0 10px;
+		width: 90vw;
+	}
+
+	.calendar {
+		padding: 22px 0;
+		width: 90%;
+	}
+
+	appointment div {
+		margin-left: 114px;
+	}
+
+	.checkboxes {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.text_label {
+		display: block;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+
+	.text_input {
+		width: 79%;
+		margin-left: 16px;
+	}
+	.text_input_mobile {
+		width: 79%;
+		margin-left: 16px;
+	}
+
+	.select_input {
+		width: 89%;
+	}
+
+	.appointment_btn {
+		margin-left: 50px;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+	.appointment {
+		margin-left: 0;
+	}
+	.all_items {
+		flex-direction: column;
+		align-items: center;
+		margin: 0 20px;
+	}
+
+	.checkboxes {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.text_label {
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.text_input {
+		width: 79%;
+		margin-left: 16px;
+	}
+	.text_input_mobile {
+		width: 79%;
+		margin-left: 16px;
+	}
+
+	.select_input {
+		width: 85%;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.appointment {
+		margin-left: -20px;
+		margin-top: 0px;
+	}
+	.main_appointment {
+		margin: 50px 4%;
+	}
+	.appointment h5 {
+		margin-top: 19px;
+	}
+	.all_items {
+		align-items: center;
+		margin: 0 20px;
+		padding-bottom: 50px;
+		width: 94vw;
+	}
+
+	.calendar {
+		margin: 0 24px;
+	}
+
+	.text_label {
+		display: block;
+		text-align: left;
+		margin-bottom: 0px;
+	}
+
+	.text_input {
+		width: 69%;
+		margin-left: 16px;
+	}
+	.text_input_mobile {
+		width: 69%;
+		margin-left: 8px;
+	}
+
+	.select_input {
+		width: 89%;
+	}
+
+	form {
+		margin-top: 45px;
+	}
+}
