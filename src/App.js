@@ -9,7 +9,7 @@ const App = () => {
 			<div className="img">
 				<img src={logo} alt="" />
 			</div>
-			<h1>We Are Coming Soon...</h1>
+			<h1>Coming soon!</h1>
 			<a href="https://www.instagram.com/thebusytoddlersclub/?igshid=YmMyMTA2M2Y%3D">
 				<button class="btn">Check Our Instagram</button>
 			</a>
