@@ -27,7 +27,7 @@ body {
 
 h1 {
 	margin-top: 98px;
-	font-size: 5rem;
+	font-size: 2.5rem;
 	font-weight: bold;
 	margin-bottom: 15px;
 	text-align: center;
@@ -46,7 +46,6 @@ h1 {
 
 @media (max-width: 375px) {
 	h1 {
-		font-size: 20px;
+		font-size: 20px;
 	}
 }
-/* done */
