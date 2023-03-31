@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import logo from "./components/assets/FINALSYMBOL.png";
+import logo from "./components/assets/logo.jpg";
 import Appointment from "./components/Appointment/Appointment";
 
 const App = () => {
